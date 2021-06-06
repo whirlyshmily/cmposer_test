@@ -21,7 +21,6 @@
         "Xiaoe\\ClockHub\\": "src/"
       },
       "files": [
-        "src/helper.php",
         "src/version.php"
       ]
     }
