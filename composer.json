@@ -4,23 +4,19 @@
     "type": "library",
     "license": "MIT",
     "authors": [
-      {
-        "name": "whirlyyin",
-        "email": "whirlyyin@xiaoe-tech.com"
-      }
+        {
+            "name": "whirlyyin",
+            "email": "whirlyyin@xiaoe-tech.com"
+        }
     ],
-    "require-dev": {
-    },
+    "require-dev": {},
     "require": {
-      "psr/log": ">=1.0",
-      "psr/http-message": ">=1.0",
-      "php": ">=5.6.9"
+        "php": ">=5.6.9"
     },
     "autoload": {
-      "psr-4": {
-        "Flower\\Rose\\": "src/Flower/Rose",
-        "Flower\\Lily\\": "src/Flower/Lily"
-      }
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
     }
-  }
-  
+}
