@@ -18,7 +18,9 @@
     },
     "autoload": {
       "psr-4": {
-        "Xiaoe\\ClockHub\\": "src"
+        "Xiaoe\\ClockHub\\": "src",
+        "Flower\\Rose\\": "src/Flower/Rose",
+        "Flower\\Lily\\": "src/Flower/Lily"
       }
     }
   }
