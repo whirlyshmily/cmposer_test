@@ -2,7 +2,7 @@
     "name": "xiaoe/clockhub-sdk",
     "description": "xiaoe clockhub service sdk",
     "type": "library",
-    "license": "GitMIT",
+    "license": "MIT",
     "authors": [
       {
         "name": "whirlyyin",
@@ -18,7 +18,6 @@
     },
     "autoload": {
       "psr-4": {
-        "Xiaoe\\ClockHub\\": "src",
         "Flower\\Rose\\": "src/Flower/Rose",
         "Flower\\Lily\\": "src/Flower/Lily"
       }
