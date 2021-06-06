@@ -1,0 +1,22 @@
+{
+    "name": "whirl/whirlyshmily",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+          }
+    },
+    "authors": [
+        {
+            "name": "whirlyyin",
+            "email": "whirlyyin@xiaoe-tech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    }
+}
