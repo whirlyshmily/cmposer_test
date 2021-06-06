@@ -1,22 +1,29 @@
 {
-    "name": "whirl/whirlyshmily",
-    "description": "try make a package",
+    "name": "xiaoe/clockhub-sdk",
+    "description": "xiaoe clockhub service sdk",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Flower\\Rose\\": "src/Flower/Rose",
-            "Flower\\Lily\\": "src/Flower/Lily"
-          }
-    },
     "authors": [
-        {
-            "name": "whirlyyin",
-            "email": "whirlyyin@xiaoe-tech.com"
-        }
+      {
+        "name": "whirlyyin",
+        "email": "whirlyyin@xiaoe-tech.com"
+      }
     ],
-    "minimum-stability": "dev",
+    "require-dev": {
+    },
     "require": {
-        "php": ">=7.0"
+      "psr/log": ">=1.0",
+      "psr/http-message": ">=1.0",
+      "php": ">=5.6.9"
+    },
+    "autoload": {
+      "psr-4": {
+        "Xiaoe\\ClockHub\\": "src/"
+      },
+      "files": [
+        "src/helper.php",
+        "src/version.php"
+      ]
     }
-}
+  }
+  
