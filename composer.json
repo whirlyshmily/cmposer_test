@@ -2,7 +2,7 @@
     "name": "xiaoe/clockhub-sdk",
     "description": "xiaoe clockhub service sdk",
     "type": "library",
-    "license": "MIT",
+    "license": "GitMIT",
     "authors": [
       {
         "name": "whirlyyin",
@@ -18,7 +18,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Xiaoe\\ClockHub\\": "src/"
+        "Xiaoe\\ClockHub\\": "src"
       }
     }
   }
