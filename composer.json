@@ -19,10 +19,7 @@
     "autoload": {
       "psr-4": {
         "Xiaoe\\ClockHub\\": "src/"
-      },
-      "files": [
-        "src/version.php"
-      ]
+      }
     }
   }
   
